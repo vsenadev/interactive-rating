@@ -1,0 +1,67 @@
+@import "../../../assets/styles/_variables.sass"
+
+.container__box
+  display: flex
+  flex-direction: column
+  gap: 1rem
+  padding: 1.5rem
+  border-radius: 24px
+  border-style: none
+  width: calc(19% - 3rem)
+  height: calc(31% - 3rem)
+  background-image: linear-gradient( 180deg, $color1 80%, $color2 98%, $color3 100% )
+
+  &_img
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 45px
+    height: 45px
+    border-radius: 100%
+    background-color: $dark-blue
+
+  &_title
+    font-family: $font
+    font-size: 1.5rem
+    font-weight: $title-weight
+    color: $white
+    letter-spacing: 2px
+
+  &_text
+    font-family: $font
+    color: $medium-grey
+    line-height: 1.2rem
+    font-size: 16px
+
+  &_div
+    width: 100%
+    display: flex
+    justify-content: space-between
+
+    button
+      width: 45px
+      height: 45px
+      border-radius: 100%
+      color: $white
+      background-color: $dark-blue
+      border-style: none
+      font-family: $font
+      cursor: pointer
+
+    button:hover
+      background-color: $orange
+
+  &_button
+    height: 3rem
+    width: 100%
+    border-radius: 40px
+    font-family: $font
+    background-color: $orange
+    border-style: none
+    color: $white
+    letter-spacing: 4px
+    cursor: pointer
+
+  &_button:hover
+    background-color: $white
+    color: $orange
