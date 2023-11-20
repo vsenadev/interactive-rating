@@ -20,7 +20,7 @@ export default function Rating(props: IRating){
             <div className={styles.container__box_div}>
                 {
                     grades.map((element: number) => (
-                        <button style={props.selected === element ? {backgroundColor: "hsl(216, 12%, 54%)"} : {}} onClick={() => props.setSelected(element)}>{element}</button>
+                        <button key={element} style={props.selected === element ? {backgroundColor: "hsl(216, 12%, 54%)"} : {}} onClick={() => props.setSelected(element)}>{element}</button>
                     ))
                 }
             </div>
