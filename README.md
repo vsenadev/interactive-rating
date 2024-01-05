@@ -3,6 +3,9 @@
 ## Descrição
 O Interactive Rating é uma aplicação desenvolvida para avaliar a qualidade do suporte fornecido, permitindo aos usuários atribuir uma nota de 1 a 5. A ideia é proporcionar uma experiência interativa e simples para coletar feedbacks valiosos sobre a assistência oferecida.
 
+## Aplicação em produção
+https://interactive-rating-three-woad.vercel.app/
+
 ## Tecnologias Utilizadas
 [![My Skills](https://skillicons.dev/icons?i=react,ts,sass)](https://skillicons.dev)
 
